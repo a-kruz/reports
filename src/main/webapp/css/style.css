@@ -1,0 +1,111 @@
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+.div {
+    margin: 0 auto;
+    width: 50%;
+    max-width: 70%;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+    font-size: 14px;
+}
+.errors {
+    font-size: 16px;
+    font-weight: bold;
+    margin: 30px auto;
+    width: 330px;
+    padding:15px 10px 15px 60px;
+    color: #00529B;
+    background-repeat: no-repeat;
+    background-color: #BDE5F8;
+    background-image: url('info.png');
+    background-position: 20px center;
+    box-shadow:
+        inset 0 0 2px 1px rgba(255,255,255,0.08),
+        0 10px 10px -8px rgba(0, 0, 0, 0.6);
+}
+.form, .table{
+    margin: 20px auto 30px;
+}
+.form table{
+    width: 400px;
+    background: #eee;
+    box-shadow:
+        inset 0 0 2px 1px rgba(255,255,255,0.08),
+        0 10px 10px -8px rgba(0, 0, 0, 0.6);
+}
+caption {
+    font-size: 20px;
+    font-weight: bold;
+    color: #6c6763;
+}
+.form caption {
+    background: #eee;
+    border-bottom: 2px solid #EBE6E2;
+}
+.form td {
+    text-align: right;
+    padding: 5px 5px 5px 5px;
+    color: #6c6763;
+} 
+.errorMessage {
+    color: red;
+    padding: 0;
+    text-align: center;
+}
+.field{
+    float: left;
+}
+.submit {
+    margin: 5px 10px;
+    display: inline-block;
+    width: 150px;
+    color: rgba(255,255,255,.9);
+    font-family: 'Lato', Calibri, Arial, sans-serif;
+    font-size: 18px;
+    text-shadow: #2e7ebd 0 1px 2px;
+    text-align: center;
+    line-height: 1.1;
+    white-space: pre-line;
+    padding: .5em 0;
+    border: 1px solid;
+    border-color: #60a3d8 #2970a9 #2970a9 #60a3d8;
+    outline: none;
+    background: #60a3d8 linear-gradient(#89bbe2, #60a3d8 50%, #378bce);
+    box-shadow: inset rgba(255,255,255,.5) 1px 1px;
+}
+.submit:hover {
+    color: rgb(255,255,255);
+    background-image: linear-gradient(#9dc7e7, #74afdd 50%, #378bce);
+}
+.submit:active {
+    color: rgb(255,255,255);
+    border-color: #2970a9;
+    background-image: linear-gradient(#5796c8, #6aa2ce);
+    box-shadow: none;
+}
+
+.table {
+    background: white;
+    width: 100%;
+    border-collapse: collapse;
+    text-align: left;
+}
+.table th {
+    font-weight: normal;
+    color: #039;
+    border-top: 2px solid #6678b1;
+    border-bottom: 2px solid #6678b1;
+    padding: 8px 8px;
+}
+.table td {
+    color: #669;
+    padding: 8px 8px;
+    border-top: 1px solid #e8edff;
+    transition: .3s linear;
+}
+.table tr:hover td{
+    background: #e8edff;
+}
